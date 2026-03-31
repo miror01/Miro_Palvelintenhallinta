@@ -4,8 +4,8 @@ x. Julkisella SSH-avaimella pääsee kirjautumaan toisiin palvelimiin etänä. E
 
 x. "Hei maailma" tehty ansiblella ja kyseinen ohjelma vaikuttaa mielenkiintoiselta.
 
-a. SSH asennettu ja testattu
+a. SSH asennettu ja testattu.
 
 b. SSH-kirjautuminen automatisoitu.
 
-c. "Hei maailma" tehty ja kokeiltu
+c. "Hei maailma" tehty ja kokeiltu.
