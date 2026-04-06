@@ -20,20 +20,24 @@ ansible-doc -komennot ovat kuin ansiblen omat linuxista tutut **man**-sivut. Kä
 
 a & b)
 Ekana loin manuaalisesti uuden käyttäjän ja ryhmän joka oli sudoless, b. tehtävässä automatisoin sen ansiblella.
+
 <img width="512" height="164" alt="sudoless_antero" src="https://github.com/user-attachments/assets/56add814-88a9-49b0-b727-c03747334eca" />
 
 
 c)
 Asensin paketit **htop** ja **git**. Toimivuus testattu terminaalissa ja todettu onnistuneeksi.
+
 <img width="158" height="84" alt="paketit" src="https://github.com/user-attachments/assets/3d14fc29-d098-49b4-8e28-e4bbffb6c200" />
 
 
 d)
 Ansiblen avulla loin moni-rivisen tiedoston tiukoilla oikeuksilla. oikeudet "**600**" tarkoittaa, että vain tiedoston omistajalla on oikeus lukea ja kirjoittaa. Loput 2 nollaa tarkoittavat ryhmää ja muita käyttäjiä, heillä ei ole lainkaan oikeuksia. Oikeudet 600 on kirjaimina -rw-------.
+
 <img width="299" height="79" alt="file_tehtävä" src="https://github.com/user-attachments/assets/084b889f-c628-427e-96f3-67f14fea66f4" />
 
 e)
 Löysin uuden moduulin jota ei ole vielä käytetty kurssilla, **timezone**. Se on vastuussa palvelimen kellonajasta.
+
 <img width="146" height="37" alt="jotainmuuta" src="https://github.com/user-attachments/assets/02a1fb56-727c-4130-a81b-d66d3553c3a3" />
 
 
@@ -41,6 +45,7 @@ Löysin uuden moduulin jota ei ole vielä käytetty kurssilla, **timezone**. Se 
 Testaus)
 
 Ajoin playbookin komennolla **ansible-playbook site.-yml -K** ja tuloksena oli seuraava:
+
 <img width="586" height="392" alt="h2_kuva5" src="https://github.com/user-attachments/assets/7ff00922-8fca-44c1-a34c-f7266017c2ba" />
 
 
