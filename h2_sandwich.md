@@ -44,7 +44,7 @@ Löysin uuden moduulin jota ei ole vielä käytetty kurssilla, **timezone**. Se 
 
 ## Testaus)
 
-Ajoin playbookin komennolla **ansible-playbook site.-yml -K** ja tuloksena oli seuraava:
+Ajoin playbookin komennolla **ansible-playbook site.yml -K** ja tuloksena oli seuraava:
 
 <img width="586" height="392" alt="h2_kuva5" src="https://github.com/user-attachments/assets/7ff00922-8fca-44c1-a34c-f7266017c2ba" />
 
