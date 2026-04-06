@@ -1,4 +1,4 @@
-x) 
+## x) 
 Ensimmäinen artikkeli "Sudo without password" on ohje salasanattoman sudon käyttämiseen, joka siis mahdollistaa ansiblen automaation koska salasanoja ei tarvitse enää kirjoittaa. Tehtävä suoritettu ohjeiden mukaan, 
 eli tein ryhmän **sudoless** ja lisäsin uuden käyttäjän "antero" siihen ja muokkasin sudoers.d-hakemistoa niin että sudoless ryhmällä on oikeus käyttää sudoa ilman salasanaa. Hyödyllinen ja elintärkeä toiminto Ansiblen
 toiminnalle. Tässä huomiona että on tärkeä pitää toista terminaalia auki siltä varalta jos rikkoo jotain alkuperäisellä terminaalilla. Näin et lukitse itseäsi ulos omasta systeemistäsi.
@@ -18,31 +18,31 @@ ansible-doc -komennot ovat kuin ansiblen omat linuxista tutut **man**-sivut. Kä
 **ansible-doc authorized_key** on SSH-avaimia varten. Optio **user** tarkoittaa käyttäjää jolle avain lisätään, ja **key** tarkoittaa lisättävää avainta.
 
 
-a & b)
+## a & b)
 Ekana loin manuaalisesti uuden käyttäjän ja ryhmän joka oli sudoless, b. tehtävässä automatisoin sen ansiblella.
 
 <img width="512" height="164" alt="sudoless_antero" src="https://github.com/user-attachments/assets/56add814-88a9-49b0-b727-c03747334eca" />
 
 
-c)
+## c)
 Asensin paketit **htop** ja **git**. Toimivuus testattu terminaalissa ja todettu onnistuneeksi.
 
 <img width="158" height="84" alt="paketit" src="https://github.com/user-attachments/assets/3d14fc29-d098-49b4-8e28-e4bbffb6c200" />
 
 
-d)
+## d)
 Ansiblen avulla loin moni-rivisen tiedoston tiukoilla oikeuksilla. oikeudet "**600**" tarkoittaa, että vain tiedoston omistajalla on oikeus lukea ja kirjoittaa. Loput 2 nollaa tarkoittavat ryhmää ja muita käyttäjiä, heillä ei ole lainkaan oikeuksia. Oikeudet 600 on kirjaimina -rw-------.
 
 <img width="299" height="79" alt="file_tehtävä" src="https://github.com/user-attachments/assets/084b889f-c628-427e-96f3-67f14fea66f4" />
 
-e)
+## e)
 Löysin uuden moduulin jota ei ole vielä käytetty kurssilla, **timezone**. Se on vastuussa palvelimen kellonajasta.
 
 <img width="146" height="37" alt="jotainmuuta" src="https://github.com/user-attachments/assets/02a1fb56-727c-4130-a81b-d66d3553c3a3" />
 
 
 
-Testaus)
+#### Testaus)
 
 Ajoin playbookin komennolla **ansible-playbook site.-yml -K** ja tuloksena oli seuraava:
 
