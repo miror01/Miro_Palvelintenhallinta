@@ -49,17 +49,3 @@ Ajoin playbookin komennolla **ansible-playbook site.-yml -K** ja tuloksena oli s
 <img width="586" height="392" alt="h2_kuva5" src="https://github.com/user-attachments/assets/7ff00922-8fca-44c1-a34c-f7266017c2ba" />
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-<img width="586" height="392" alt="h2_kuva5" src="https://github.com/user-attachments/assets/e3d553df-2c9d-4217-8214-a61edeccbfc4" />
-
