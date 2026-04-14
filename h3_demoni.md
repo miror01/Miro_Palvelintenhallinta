@@ -38,9 +38,9 @@ Sitten tein Handler-tiedoston.
 
 <img width="395" height="101" alt="handler" src="https://github.com/user-attachments/assets/eb6b301a-6165-4b65-b17c-39d614c80f9d" />
 
-Viimeiseksi ajoin playbookin suorittamaan kyseiset tehtävät. Eli **ansible-playbook -K site.yml**, joka asensi ja käynnisti nginx:in.
+Sitten ajoin playbookin suorittamaan kyseiset tehtävät. Eli **ansible-playbook -K site.yml**, joka asensi ja käynnisti nginx:in.
 
 <img width="595" height="174" alt="h3_kuva5" src="https://github.com/user-attachments/assets/08363306-a09d-4493-b9c5-0de020e28fc0" />
 
-
+Ja viimeiseksi tarkistin että localhost sivu toimii edelleen, ja kyllä toimi.
 
