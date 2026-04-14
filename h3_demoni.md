@@ -8,7 +8,7 @@ Handlerit on ns. "tehtäviä" jotka ajetaan vain, jos tapahtuu muutoksia, yleens
 
 ## a)
 
-Asensin Apache2:n komennolla **sudo apt install apache2**. Tein oman hakemiston sitä varten komennolla **mkdir /home/miror/julksinensivu** ja tein sinne index.html tiedoston johon lisäsin kuvassa olevan tekstin.
+Asensin Apache2:n komennolla **sudo apt install apache2**. Tein oman hakemiston sitä varten komennolla **mkdir /home/miror/julkinensivu** ja tein sinne index.html tiedoston johon lisäsin kuvassa olevan tekstin.
 
 Polun ja oikeudet muutin itse konffaustiedostossa nimeltä **/etc/apache2/sites-available/000-default.conf**. Sivu näkyi siis osoitteessa **http://localhost**
 
