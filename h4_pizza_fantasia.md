@@ -86,6 +86,12 @@ Kaikki skulaa, ja sisäistin tämän tehtävän avulla paljon uutta, jota oli eh
 <img width="571" height="298" alt="h4_14" src="https://github.com/user-attachments/assets/8462cc59-c640-45a8-9672-ebfa064716c7" />
 
 
+## Lähteet
+
+https://terokarvinen.com/palvelinten-hallinta/Karvinen-2023-Configuration-Management-of-Distributed-Systems-over-Unreliable-and-Hostile-Networks.pdf Luettu: 20.4.2026
+
+Tukena toimi ChatGPT 5.3-mini kielimalli, auttamaan pulmissa ja hahmottamisessa. Tehtävän toteutus on omaa työtä.
+
 
 
 
