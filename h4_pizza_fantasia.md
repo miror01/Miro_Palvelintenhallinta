@@ -1,7 +1,7 @@
 ## x)
 
 Ensiksi luin sivut 112-117, eli siis kappaleet 4.12.1, 4.12.2, 4.12.3.1. Koin tekstin melko vaikealukuiseksi ja tiheäksi, mutta tekstissä puhutaan DSL:stä, eli Domain Specific Languageista,
-tarkoittaen siis Konfiguraatiotyökalujen omia kieliä, kuten Salt ja Puppet joista puhuttiin artikkelissa paljon. Artikkelissa käsiteltiin sitä, miten nämä kielet voivat olla erittäin tiheitä, laajoja, sekä monimutkaisia.
+tarkoittaen siis konfiguraatiotyökalujen omia kieliä, kuten Salt ja Puppet joista puhuttiin artikkelissa paljon. Artikkelissa käsiteltiin sitä, miten nämä kielet voivat olla erittäin tiheitä, laajoja, sekä monimutkaisia.
 
 Saltissa itsessään on jo 510 eri toimintoa, ja sen dokumentaatio on yli 20000 riviä pitkä, yli 75000 sanaa. Puppetissa taas vähemmän, 113 toimintoa. Mielestäni tämän kaltainen määrä kaikkea teknistä on erittäin uuvuttavaa, 
 mutta onneksi näistä ei tarvitse kuin erittäin pientä osaa. Artikkelissakin käsitellään tätä, jos kaikkia toimintoja tarvittaisiin, käyttäjän pitäisi opetella järkyttävä määrä uusia komentoja ja syntaksia. Näin ei onneksi
