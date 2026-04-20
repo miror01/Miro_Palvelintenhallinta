@@ -13,7 +13,7 @@ Idempotentista puhutaan. Järjestelmän tulisi olla idempotentti, eli turhia muu
 
 ## a) Räpylä.
 
-Valitsin demoniksi Caddyn. Pääsin alkuun komennolla **sudo apt install caddy** ja tarkistin Caddyn toiminnan komennoilla **sudo systemctl status caddy**, joka näytti että jota<kin epäonnistui, sitten tajusin että aiemmin asentamani
+Valitsin demoniksi Caddyn. Pääsin alkuun komennolla **sudo apt install caddy** ja tarkistin Caddyn toiminnan komennoilla **sudo systemctl status caddy**, joka näytti että jotakin epäonnistui, sitten tajusin että aiemmin asentamani
 Apaceh2 palvelin käyttää jo samaa porttin, 80, ja poistin Apache2:n tilapäisesti käytöstä, **sudo systemctl stop apache2**, ja käynnistin Caddyn komennola **sudo systemctl start caddy**, ja tarkistin statuksen aiemmalla komennolla
 uudestaan, sekä toiminnan komennolla **curl localhost**.
 
