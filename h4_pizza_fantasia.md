@@ -6,8 +6,7 @@ tarkoittaen siis konfiguraatiotyökalujen omia kieliä, kuten Salt ja Puppet joi
 Saltissa itsessään on jo 510 eri toimintoa, ja sen dokumentaatio on yli 20000 riviä pitkä, yli 75000 sanaa. Puppetissa taas vähemmän, 113 toimintoa. Mielestäni tämän kaltainen määrä kaikkea teknistä on erittäin uuvuttavaa, 
 mutta onneksi näistä ei tarvitse kuin erittäin pientä osaa. Artikkelissakin käsitellään tätä, jos kaikkia toimintoja tarvittaisiin, käyttäjän pitäisi opetella järkyttävä määrä uusia komentoja ja syntaksia. Näin ei onneksi
 kuitenkaan ole. Hyvin pientä osaa näistä toiminnoista käytetään arkisesti, esimerkiksi komentoja kuten **file**, **package**, **service**, jne. Yleisiä tehtäviä konfugroinnissa ja hallinnassa tehdään yleensä samoilla perus
-toimintamalleilla. Kurssilta erittäin tuttu palvelun (demonin) asennus on yksinkertainen package, file, service- paketti, jota on jo toteutettu ja josta on jo puhuttu paljon kurssilla. Onneksi kaikkea ei tarvitse osata, vaan
-perus toiminnoilla pärjää, pysyy paremmin pakka kasassa.
+toimintamalleilla. Kurssilta erittäin tuttu palvelun (demonin) asennus on yksinkertainen package, file, service- paketti, jota on jo toteutettu ja josta on jo puhuttu paljon kurssilla. Onneksi kaikkea ei tarvitse osata, vaan perustoiminnoilla pärjää, pysyy paremmin pakka kasassa.
 
 Idempotentista puhutaan. Järjestelmän tulisi olla idempotentti, eli turhia muutoksia ei tehdä. Voidaan ajaa playbookki uudestaan ja kun muutoksia ei tapahdu tilana on idempotentti.
 
