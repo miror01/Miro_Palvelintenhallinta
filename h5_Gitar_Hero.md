@@ -58,7 +58,7 @@ Kuvaus on vähän hutera, tajusin jälkeenpäin vasta että parempi kuvaus olisi
 <img width="423" height="293" alt="h5_6" src="https://github.com/user-attachments/assets/7f17c6e1-5853-40c9-8fd6-57c65a404a3b" />
 
 
-Tehdään tiedostoihin joku muutos. Valitsin muutokseksi että lisään **site.yml**- playbookkiinihi aiemman tehtävän vapaavlintaisen demonin, Caddyn, laittamisen kommentiksi. Kun rooli siirretään kommentiksi, sitä ei enää
+Tehdään tiedostoihin joku muutos. Valitsin muutokseksi että lisään **site.yml**- playbookkiinihi aiemman tehtävän vapaavalintaisen demonin, Caddyn, laittamisen kommentiksi. Kun rooli siirretään kommentiksi, sitä ei enää
 ajeta playbookin suorittamisen kohdalla ja näin voi vaikkapa säästää aikaa, kun playbook ajetaan.
 
 Caddy-rooli on nyt muutettu kommentiksi. Seuraavaksi ajetaan playbook, **ansible-playbook -K site.yml** ja katsotaan komennolla **git status**, jossa lukee "modified: site.yml". Lisään tiedostot komennolla **git add --all**
