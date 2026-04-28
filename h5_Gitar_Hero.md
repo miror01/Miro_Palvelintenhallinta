@@ -72,6 +72,17 @@ Chacon and Straub 2014: Pro Git, 2ed: 1.3 Getting Started - What is Git?. Luettu
 
 Apuna toteutuksen ideoinnissa on käyetty ChatGPT:n 5.3-mini -kielimallia. Komennot ja itse toteutus on kuitenkin omaa työtä.
 
+## f)
+
+Pari on hankittu :)
+
+## h)
+
+Oskar lisäsi minut yhteiseen varastoon jonne otin SSH-kautta yhteyden ja **git log --patch** komennolla näkyy nyt molempien muutokset varastossa! :)
+
+<img width="376" height="344" alt="h5_vapaaehtoinen_h" src="https://github.com/user-attachments/assets/e68ef1c4-a35e-47c2-a128-10fc0023df55" />
+
+
 
 
 
